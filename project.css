@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#header-img{
+
+margin-top:1px;
+
+}
+body {
+  
+  background-image: url("https://m.media-amazon.com/images/I/8171ckDyZOL._SL1500_.jpg");
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+li {
+  list-style: none;
+  
+}
+
+a {
+color: #000;
+text-decoration: none;
+text-align:left;
+
+}
+
+q
+
+.container {
+max-width: 1000px;
+width: 200%;
+margin: 0 auto;
+}
+
+.btn {
+padding: 0 20px;
+height: 30px;
+font-size: 1em;
+
+font-weight: 900;
+text-transform: uppercase;
+border: 3px ;
+border-radius: 5px;
+background:  #eca216;
+cursor: pointer;
+color: black;
+}
+
+nav {
+   
+  position:fixed;
+    margin-top: 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 0 50px;
+  }
+ nav li {
+    padding-bottom: 5px;
+  }
+
+nav ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+}
+#hero h2 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+#hero input[type="email"] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+#hero input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #f1c40f;
+}
+#hero input[type="submit"]:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+@media (max-width: 650px) {
+  #hero {
+    margin-top: 120px;
+  }
+}
+.desc {
+    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 120px;
+  width: 100vw;
+  padding: 5px;
+  
+}
+#how-it-works{
+  text-align: center;
+}
+
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+h2{
+  color: white;
+}
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+background:white;
+}
+#pricing #material, #pricing #bass, #pricing #valve {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100%  / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+#pricing #material .level, #pricing #bass .level, #pricing #valve .level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#pricing #material h2, #pricing #bass h2, #pricing #valve h2 {
+  margin-top: 15px;
+}
+#pricing #material ol, #pricing #bass ol, #pricing #valve ol {
+  margin: 15px 0;
+}
+#pricing #material ol li, #pricing #bass ol li, #pricing #valve ol li {
+  padding: 5px 0;
+}
+#pricing #material button, #pricing #bass button, #pricing #valve button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 400;
+}
+#pricing #material button:hover, #pricing #bass button:hover, #pricing #valve button:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+footer ul {
+  display: flex;
+  justify-content: flex-end;
+}
+footer ul li {
+  padding: 0 10px;
+}
+footer span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
+#img1{
+  height: 350px;
+  width: 350px;
+}
+#img2{
+  height: 350px;
+  width: 350px;
+}
+#img3{
+  height: 350px;
+  width: 350px;
+}
+
